@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Recipe() {
 
 const [details, setDetails] = useState({});
-const [activeTab, setActiveTab] = useState('instsructions');
+const [activeTab, setActiveTab] = useState('instructions');
 
 let params = useParams();
 
